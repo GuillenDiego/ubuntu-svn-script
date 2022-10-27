@@ -1,6 +1,8 @@
 # ubuntu-svn-script
 Setup SVN Server on Ubuntu Shell Script
 
+Run the following comands to install svn on apache. 
+
 ```
 sudo apt-get -y update 
 sudo apt-get -y install net-tools 
