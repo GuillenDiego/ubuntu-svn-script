@@ -15,7 +15,7 @@ sudo cp -R  websvn /var/www/html
 ```
 
 ```
-sudo apt-get install php-pear
+sudo apt-get -y install php-pear
 ```
 
 ```
