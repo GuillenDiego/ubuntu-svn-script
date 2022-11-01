@@ -1,7 +1,7 @@
 # ubuntu-svn-script
 Setup SVN Server on Ubuntu Shell Script
 
-Run the following comands to install svn on apache. 
+##Install SVN 
 
 ```
 sudo apt-get -y update 
@@ -13,7 +13,7 @@ sudo chmod +x setupSVN.sh
 sudo ./setupSVN.sh
 ```
 
-
+## Install  Pear and php 
 ```
 cd /
 sudo apt-get install php-pear
@@ -23,4 +23,11 @@ sudo pear install Text_Diff
 sudo pear install Archive_Tar
 sudo git clone https://github.com/websvnphp/websvn.git
 sudo cp -R  websvn /var/www/html
+
+```
+## Install php 8.0
+```
+sudo apt install lsb-release ca-certificates apt-transport-https software-properties-common -y
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php8.0
 ```
