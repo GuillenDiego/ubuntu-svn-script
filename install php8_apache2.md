@@ -11,7 +11,8 @@ Install Git and clone repo
 ```
 sudo apt-get -y install net-tools 
 sudo apt-get -y install  git
-sudo git clone https://github.com/GuillenDiego/ubuntu-svn-script.git
+sudo git clone https://github.com/websvnphp/websvn.git
+sudo cp -R  websvn /var/www/html
 ```
 Install php pear
 ```
