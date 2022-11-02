@@ -20,4 +20,5 @@ sudo apt install -y php8.0 php-xml
 cd /
 sudo git clone https://github.com/websvnphp/websvn.git
 sudo cp -R  websvn /var/www/html
+sudo cp websvn/config.php /var/www/html/websvn/include/config.php
 ```
