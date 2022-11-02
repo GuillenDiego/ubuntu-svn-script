@@ -28,7 +28,7 @@ sudo htpasswd -cm /etc/apache2/dav_svn.passwd admin
 if [ $? -eq 0 ] ; then
    sudo systemctl restart apache2.service
    echo "SVN installed in: $SVN_DIR"
-   echo "Get this link 'http://localhost/svn/repository' to test svn service"
+   echo "Get this link 'http://localhost/repos/web3repo' to test svn service"
    echo "If show 'repository - Revision 0: /' is Ok!"
 else
    echo "There was an issue with the final installation"
