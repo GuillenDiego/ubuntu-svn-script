@@ -18,7 +18,7 @@ sudo service apache2 restart
 sudo cp dav_svn.conf /etc/apache2/mods-enabled/dav_svn.conf
 
 sudo mkdir $SVN_DIR
-sudo svnadmin create ${SVN_DIR}/repository
+sudo svnadmin create ${SVN_DIR}/web3repo
 sudo chown -R www-data:www-data $SVN_DIR
 sudo chmod -R 775 $SVN_DIR
 
