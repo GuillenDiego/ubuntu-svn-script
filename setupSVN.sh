@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SVN_DIR=/var/lib/svn
+SVN_DIR=/home/RHEMA_svn_repository
 
 echo "Setup SVN Server: "
 
