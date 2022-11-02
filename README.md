@@ -20,5 +20,14 @@ sudo apt install -y php8.0 php-xml
 cd /
 sudo git clone https://github.com/websvnphp/websvn.git
 sudo cp -R  websvn /var/www/html
-sudo cp websvn/config.php /var/www/html/websvn/include/config.php
+cd
+sudo cp ubuntu-svn-cript/config.php /var/www/html/websvn/include/config.php
+sudo service apache2 restart
+```
+## Install PEAR
+```
+sudo apt-get install wget
+sudo wget http://pear.php.net/go-pear.phar
+sudo apt-get install php-pear pkg-config libbson-1.0 libmongoc-1.0-0 php-xml php7.0-xml php-dev
+sudo php go-pear.phar
 ```
